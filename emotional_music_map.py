@@ -1,3 +1,6 @@
+# Mapa Emocional Interactivo de Composiciones Musicales
+# Proyecto Terminal - UAM Cuajimalpa 2025
+
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
