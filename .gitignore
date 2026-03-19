@@ -1,0 +1,19 @@
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos temporales de Excel
+~$*.xlsx
