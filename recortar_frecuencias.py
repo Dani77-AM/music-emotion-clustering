@@ -1,3 +1,9 @@
+# Extracción automática de segmentos de audio de mayor energía espectral
+# Utiliza librosa para detectar el pico de energía (200-8000 Hz) y exporta
+# un fragmento de 30 segundos por canción en formato MP3
+# Proyecto Terminal - UAM Cuajimalpa 2025
+
+
 import librosa
 import numpy as np
 from pathlib import Path
@@ -5,7 +11,7 @@ from tqdm import tqdm
 from pydub import AudioSegment
 
 # === CONFIGURACIÓN ===
-input_folder = Path(r"C:\Users\Daniel\Downloads\audiopruebas\Pia")  # carpeta con MP3
+input_folder = Path(r"C:\Users\Daniel\Downloads\audiopruebas\P11")  # carpeta con MP3
 output_folder = input_folder / "recortes"
 output_folder.mkdir(exist_ok=True)
 
